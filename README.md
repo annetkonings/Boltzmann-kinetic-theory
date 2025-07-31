@@ -21,3 +21,5 @@ The equation we are going to solve is:
 ```math
 \frac{\partial f}{\partial t} + \frac{\textbf{p}}{m} \cdot \nabla f + \textbf{F} \cdot \frac{\partial f}{\partial \textbf{p}} = -\nu (f - f_{eq})
 ```
+
+where $\nu$ is the rate at which teh distribution relaxes towards the Maxwellian distribution $f_eq$.
