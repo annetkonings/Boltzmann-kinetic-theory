@@ -9,4 +9,4 @@ In Part 1 we saw that the distributions for position and momentum were constantl
 
 ###Part 3: The 1D BGK Boltzmann model
 Collisions between particles can be modelled with the Boltzmann equation. The BGK Bolztmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
-The equation we are going to solve is: $\frac{\del f}{\del t} + \rightarrow{v} \cdot \nabla_{\rightarrow{x}} f + \frac{\rightarrow{F}}{m} \cdot \nabla_{\rightarrow{v}} f = -nu (f - f_{eq})$.
+The equation we are going to solve is: $\frac{\partial f}{\partial t} + \rightarrow{v} \cdot \nabla_{\rightarrow{x}} f + \frac{\rightarrow{F}}{m} \cdot \nabla_{\rightarrow{v}} f = -\nu (f - f_{eq})$.
