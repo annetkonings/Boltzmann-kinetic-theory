@@ -11,12 +11,11 @@ We start with random initial positions and velocities out of equilibrium, and ev
 In Part 1 we saw that the distributions for position and momentum were constantly shifting, but they were not truly in equilibrium. To make the system more realistic, we add friction and a noise term in the Langevin equation.
 
 ### Part 3: The 1D BGK Boltzmann model
-The Boltzmann equation,
+Collisions between particles can be modelled with the Boltzmann equation.
 ```math
 \frac{\partial f}{\partial t} + \frac{\textbf{p}}{m} \cdot f + \textbf{F} \cdot \frac{\partial f}{\partial \textbf{p}} = \bigg(\frac{\partial f}{\partial t}\bigg)_{col}
 ```
-
-Collisions between particles can be modelled with the Boltzmann equation. The BGK Bolztmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
+The BGK Bolztmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
 The equation we are going to solve is:
 
 ```math
