@@ -1,7 +1,10 @@
 # Boltzmann-kinetic-theory
 
 ### Part 1: Evolving a random distribution to a Maxwell-Boltzmann distribution
-The goal of the first part is to simulate a set of particles moving in 1D inside a harmonic potential, so $U(x) = \frac{1}{2}kx^2$
+The goal of the first part is to simulate a set of particles moving in 1D inside a harmonic potential, so 
+```math
+U(x) = \frac{1}{2}kx^2.
+```
 We start with random initial positions and velocities not at equilibrium, and evolve the system toward a Maxwell-Boltzmann distribution with the Runge-Kutta method.
 
 ### Part 2: The Langevin equation
