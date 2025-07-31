@@ -19,5 +19,5 @@ The BGK Boltzmann model simplifies the Boltzmann equation by relaxing the local 
 The equation we are going to solve is:
 
 ```math
-\frac{\partial f}{\partial t} + \overrightarrow{v} \cdot \nabla_{\overrightarrow{x}} f + \frac{\overrightarrow{F}}{m} \cdot \nabla_{\overrightarrow{v}} f = -\nu (f - f_{eq})
+\frac{\partial f}{\partial t} + \textbf{v} \cdot \nabla_{\texbf{x}} f + \frac{\textbf{F}}{m} \cdot \nabla_{\textbf{v}} f = -\nu (f - f_{eq})
 ```
