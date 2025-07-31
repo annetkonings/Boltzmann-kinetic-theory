@@ -13,7 +13,7 @@ In Part 1 we saw that the distributions for position and momentum were constantl
 ### Part 3: The 1D BGK Boltzmann model
 The Boltzmann equation,
 ```math
-\frac{\partial f}{\partial t} + \frac{\textbf{p}}{m} \cdot f + \texbf{F} \cdot \frac{\partial f}{\partial \textbf{p}} = (\frac{\partial f}{\partial t})_{col}
+\frac{\partial f}{\partial t} + \frac{\textbf{p}}{m} \cdot f + \textbf{F} \cdot \frac{\partial f}{\partial \textbf{p}} = \bigg(\frac{\partial f}{\partial t}\bigg)_{col}
 ```
 
 Collisions between particles can be modelled with the Boltzmann equation. The BGK Bolztmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
