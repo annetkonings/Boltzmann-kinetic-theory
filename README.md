@@ -15,7 +15,7 @@ Collisions between particles can be modelled with the Boltzmann equation.
 ```math
 \frac{\partial f}{\partial t} + \frac{\textbf{p}}{m} \cdot f + \textbf{F} \cdot \frac{\partial f}{\partial \textbf{p}} = \bigg(\frac{\partial f}{\partial t}\bigg)_{col}
 ```
-The BGK Bolztmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
+The BGK Boltzmann model simplifies the Boltzmann equation by relaxing the local distribution towards equilibrium.
 The equation we are going to solve is:
 
 ```math
