@@ -11,7 +11,7 @@ We start with random initial positions and velocities out of equilibrium, and ev
 In Part 1 we saw that the distributions for position and momentum were constantly shifting, but they were not truly in equilibrium. To make the system more realistic, we add friction and a noise term in the Langevin equation,
 
 ```math
-m\frac{dv}{dt} = - \gamma v + \eta(t).
+m\frac{dv}{dt} = - \gamma v - k x + \eta(t).
 ```
 
 
