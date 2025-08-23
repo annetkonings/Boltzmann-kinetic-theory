@@ -29,4 +29,4 @@ The equation we are going to solve is:
 
 where $\nu$ is the rate at which teh distribution relaxes towards the Maxwellian distribution $f_{eq}$.
 
-More information on the BGK Boltzmann model can be found, for example, [here](https://arxiv.org/pdf/1902.08311).
+More information on the BGK Boltzmann model can be found, for example, [here](https://arxiv.org/pdf/1902.08311) and [here](https://www.math.u-bordeaux.fr/~lmieusse/PAGE_WEB/PUBLICATIONS/2000/luc_jcp00.pdf).
